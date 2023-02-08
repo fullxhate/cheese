@@ -1,0 +1,12 @@
+body{
+  min-height: 100%;
+  width: 1440px;
+  color: #323232;
+  font-size: 14px;
+  line-height: 20px;
+  @extend %montserrat;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}

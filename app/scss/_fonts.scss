@@ -1,0 +1,28 @@
+@font-face {
+  font-family:'Montserrat-Regular' , sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  src: local('Montserrat-Regular'),
+  url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.woff') format('woff');
+
+  font-display: swap;
+}
+@font-face {
+  font-family:'Mirra-Auriolic' , sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Mirra-Auriolic'),
+  url('../fonts/Mirra-Auriolic.woff2') format('woff2'),
+  url('../fonts/Mirra-Auriolic.woff') format('woff');
+
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mirra Auriolic Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mirra Auriolic Regular'), url('../fonts/mirra.woff') format('woff');
+}

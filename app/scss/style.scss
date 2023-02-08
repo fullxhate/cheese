@@ -1,0 +1,126 @@
+@import "global";
+@import "fonts";
+@import "reset";
+@import "vars";
+@import "libs";
+
+.cart {
+  padding: 80px 0 80px;
+
+  &-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &-section__steps {
+    padding: 32px;
+    background-color: #323232;
+  }
+
+  &-section__subtitle {
+    color: #fff;
+    margin-bottom: 32px;
+  }
+
+  &-section-list {
+    margin-bottom: 16px;
+  }
+
+  &-section__link {
+    color: #e0e0e0;
+
+    gap: 10px;
+
+    span {
+      gap: 10px;
+      margin-right: 10px;
+      padding: 1px 5px;
+      background-color: #e0e0e0;
+      color: #323232;
+      border-radius: 50%;
+    }
+  }
+
+  &-section__title {
+    font-size: 48px;
+    line-height: 57px;
+    text-transform: uppercase;
+    @extend %mirra;
+    //font-family: "Mirra Auriolic Regular";
+
+
+  }
+  &-section__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 14px 18px 0;
+  }
+  &-section__item-name{
+    margin-right: 40px;
+  }
+
+  &-section__total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0;
+    margin-bottom: 5px;
+  }
+  &-section__total-text,
+  &-section__total-price
+  {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  &-section__btn{
+    padding: 22px 52px;
+    background-color: transparent;
+    border: 1px solid #661D1E;
+    outline: none;
+    color: #661D1E;
+    cursor: pointer;
+  }
+  &-form{
+    width: 683px;
+    margin-top: 32px;
+  }
+  &-form__title{
+    margin-bottom: 24px;
+  }
+  &-form__input{
+    margin: 0 24px 24px 0;
+    width: 327px;
+    padding: 22px ;
+    border: 1px solid $def;
+    outline: none;
+    background-color: transparent;
+  }
+  &-form__input:nth-child(2){
+    margin-right: 0;
+  }
+
+  &-form__input::placeholder{
+color: $def;
+  }
+  &-form__type{
+  }
+  &-form__registration{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: $def;
+    margin-bottom: 33px;
+  }
+
+
+
+
+
+
+}
+
+
+@import "media";
